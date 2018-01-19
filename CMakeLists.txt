@@ -7,5 +7,5 @@ endif()
 add_subdirectory(HippoMocks)
 #add_subdirectory(HippoMocksTest)
 
-install(FILES ${PROJECT_SOURCE_DIR}/HippoMocks/hippomocks.h
+install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/HippoMocks/hippomocks.h
         DESTINATION include/)
